@@ -22,6 +22,7 @@ No core os dados são formatos em um JSON e enviados como string para o query. N
 
 * RabbitMQ enviando mensagem 
 ![image](https://github.com/user-attachments/assets/ac62ae5d-235e-4971-bf45-01ed755a5bb5)
+![image](https://github.com/user-attachments/assets/99bf8632-3ee8-40b5-a434-6b6c8f7c27d7)
 
 * Salvando os dados no query recebidos do rabbitMQ
   TODO: adicionar
