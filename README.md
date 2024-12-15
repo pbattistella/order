@@ -3,6 +3,15 @@ Foram criados dois projetos Order Core e Query. No core são realizas as operaç
 
 No core os dados são formatos em um JSON e enviados como string para o query. No query os dados são salvos de modo normalizado, tendo primary key e foreign key.
 
+# Tecnologias
+
+* Java 17
+* Spring Boot 3.4.0
+* Flyway
+* Postgresql 14
+* Docker
+* RabbitMQ
+
 # Em execução
 
 * Criando um novo pedido - CORE 
@@ -25,5 +34,5 @@ No core os dados são formatos em um JSON e enviados como string para o query. N
 ![image](https://github.com/user-attachments/assets/fdf6a90c-4c2f-4d07-9c0b-aae5d1b9edb6)
 ![image](https://github.com/user-attachments/assets/1158a7d1-286b-4998-bcd2-6bce70873dec)
 
-*Tabela Order - QUERY
+* Tabela Order - QUERY
 ![image](https://github.com/user-attachments/assets/2132bacb-b0c8-4494-97f8-9d99625c8e87)
