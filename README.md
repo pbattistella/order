@@ -1,7 +1,7 @@
 # Project order
-Foram criados dois projetos Order Core e Query. No core são realizas as operações de escrita no banco e no query as operações de leitura. Entre o core e query temos o RabbitMQ sendo responsável pelas trocas de mensagens de ambos os projetos. 
+Foram criados dois projetos Order Core e Query. No core são realizadas as operações de escrita no banco e no query as operações de leitura. Entre o core e query temos o RabbitMQ sendo responsável pelas trocas de mensagens de ambos os projetos. 
 
-No core os dados são formatos em um JSON e enviados como string para o query. No query os dados são salvos de modo normalizado, tendo primary key e foreign key.
+No core os dados são formatados em um JSON e enviados como string para o query. No query os dados são salvos de modo normalizado, tendo primary key e foreign key.
 
 # Tecnologias
 
