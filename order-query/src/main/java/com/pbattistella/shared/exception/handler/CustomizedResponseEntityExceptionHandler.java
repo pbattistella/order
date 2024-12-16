@@ -1,6 +1,6 @@
 package com.pbattistella.shared.exception.handler;
 
-import com.pbattistella.queryread.order.exception.OrderNotFoundException;
+import com.pbattistella.query.read.order.exception.OrderNotFoundException;
 import com.pbattistella.shared.exception.ExceptionResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

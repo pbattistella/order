@@ -1,23 +1,20 @@
-package com.pbattistella.query.write.product.model;
+package com.pbattistella.query.read.product.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.hibernate.annotations.DynamicUpdate;
 
 @Entity
-@Builder
 @Getter
+@Builder
 @DynamicUpdate
 @Table(name = "product")
-@NoArgsConstructor
-@AllArgsConstructor
-public class ProductModelWrite {
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@AllArgsConstructor(access = AccessLevel.PRIVATE)
+public class ProductModelRead {
 
     @Id
     private String id;
@@ -28,4 +25,5 @@ public class ProductModelWrite {
     private String description;
 
     private String category;
+
 }

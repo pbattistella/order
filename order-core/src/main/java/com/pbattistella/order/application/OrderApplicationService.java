@@ -36,7 +36,7 @@ public class OrderApplicationService {
 
         orderDomainRepository.save(order);
 
-        publisher.send(data);
+        publisher.dispatch(data);
 
         return orderId;
 

@@ -58,7 +58,7 @@ public class CreateOrderDto {
             .customer(customer)
             .items(items)
             .status(dto.getStatus())
-            .totalAmout(total)
+            .totalAmount(total)
             .build();
     }
 

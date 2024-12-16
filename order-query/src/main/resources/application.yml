@@ -35,6 +35,8 @@ spring:
 
 queue:
   name: queue_order
+  exchange: exchanges_order
+  routing: routing-key-teste
 
 springdoc:
   api-docs:

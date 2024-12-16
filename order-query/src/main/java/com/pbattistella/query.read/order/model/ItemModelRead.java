@@ -1,7 +1,7 @@
-package com.pbattistella.query.write.order.model;
+package com.pbattistella.query.read.order.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.pbattistella.query.write.product.model.ProductModelWrite;
+import com.pbattistella.query.read.product.model.ProductModelRead;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -18,7 +18,7 @@ import java.math.BigDecimal;
 @Table(name = "item")
 @NoArgsConstructor
 @AllArgsConstructor
-public class ItemModelWrite {
+public class ItemModelRead {
 
     @Id
     private String id;
@@ -31,12 +31,11 @@ public class ItemModelWrite {
 
     @ManyToOne
     @JoinColumn(name = "product_id", nullable = false)
-    private ProductModelWrite product;
+    private ProductModelRead product;
 
     @ManyToOne
     @JoinColumn(name = "order_id", nullable = false)
     @JsonIgnore
-    private OrderModelWrite order;
-
+    private OrderModelRead order;
 
 }

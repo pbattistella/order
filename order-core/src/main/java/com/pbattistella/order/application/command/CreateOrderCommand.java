@@ -19,6 +19,6 @@ public class CreateOrderCommand {
     private Date orderDate;
     private String status;
     private List<CreateItemCommand> items;
-    private Double totalAmout;
+    private Double totalAmount;
 
 }
