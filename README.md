@@ -38,7 +38,7 @@ No core os dados são formatos em um JSON e enviados como string para o query. N
 # Tabela
 
 * Tabela Order - CORE
-![image](https://github.com/user-attachments/assets/2132bacb-b0c8-4494-97f8-9d99625c8e87)
+![image](https://github.com/user-attachments/assets/bde5ef37-47a1-4ae1-a5d9-86b94e061dca)
 
 * Tabela Order - QUERY
 * Order
