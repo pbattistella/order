@@ -1,10 +1,9 @@
 package com.pbattistella.order.application;
 
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.pbattistella.config.amqp.Publisher;
-import com.pbattistella.domain.model.OrderDomainRepository;
-import com.pbattistella.domain.model.OrderModel;
+import com.pbattistella.order.domain.model.OrderDomainRepository;
+import com.pbattistella.order.domain.model.OrderModel;
 import com.pbattistella.order.application.command.CreateOrderCommand;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -31,7 +31,6 @@ public class OrderSubscriber {
             System.err.println("Erro ao processar a mensagem: " + e.getMessage());
         }
 
-
     }
 
 }

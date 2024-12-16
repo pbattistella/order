@@ -1,4 +1,4 @@
-package com.pbattistella.domain.model;
+package com.pbattistella.order.domain.model;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
