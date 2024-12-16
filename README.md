@@ -44,10 +44,13 @@ No core os dados são formatos em um JSON e enviados como string para o query. N
 * DATABASE Order - QUERY
 * Tabela Order
 ![image](https://github.com/user-attachments/assets/10e76af2-238b-4180-8d56-0a4951f3210d)
+
 * Tabela Item
 ![image](https://github.com/user-attachments/assets/415793a5-b306-4992-af25-69c5b0046a5d)
+
 * Tabela Product
 ![image](https://github.com/user-attachments/assets/35446f92-7fc3-4c15-8816-8899d06300bb)
+
 * Tabela Customer
 ![image](https://github.com/user-attachments/assets/859ae803-d7b3-44a2-8774-9c1e5c453ebe)
 
