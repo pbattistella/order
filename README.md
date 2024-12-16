@@ -35,5 +35,27 @@ No core os dados são formatos em um JSON e enviados como string para o query. N
 ![image](https://github.com/user-attachments/assets/fdf6a90c-4c2f-4d07-9c0b-aae5d1b9edb6)
 ![image](https://github.com/user-attachments/assets/1158a7d1-286b-4998-bcd2-6bce70873dec)
 
-* Tabela Order - QUERY
+# Tabela
+
+* Tabela Order - CORE
 ![image](https://github.com/user-attachments/assets/2132bacb-b0c8-4494-97f8-9d99625c8e87)
+
+* Tabela Order - QUERY
+* Order
+![image](https://github.com/user-attachments/assets/10e76af2-238b-4180-8d56-0a4951f3210d)
+* Item
+![image](https://github.com/user-attachments/assets/415793a5-b306-4992-af25-69c5b0046a5d)
+* Product
+![image](https://github.com/user-attachments/assets/35446f92-7fc3-4c15-8816-8899d06300bb)
+* Customer
+![image](https://github.com/user-attachments/assets/859ae803-d7b3-44a2-8774-9c1e5c453ebe)
+
+#ER Core
+![image](https://github.com/user-attachments/assets/a8edbd4a-e818-4a5f-8533-92a250602283)
+
+#ER Query
+![image](https://github.com/user-attachments/assets/71539798-de5c-4ac9-9055-bfc285d19dfd)
+
+
+
+
