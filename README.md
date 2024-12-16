@@ -49,15 +49,19 @@ No core os dados são formatos em um JSON e enviados como string para o query. N
 ![image](https://github.com/user-attachments/assets/415793a5-b306-4992-af25-69c5b0046a5d)
 
 * Tabela Product
+  
 ![image](https://github.com/user-attachments/assets/35446f92-7fc3-4c15-8816-8899d06300bb)
 
 * Tabela Customer
+  
 ![image](https://github.com/user-attachments/assets/859ae803-d7b3-44a2-8774-9c1e5c453ebe)
 
 #ER Core
+
 ![image](https://github.com/user-attachments/assets/a8edbd4a-e818-4a5f-8533-92a250602283)
 
 #ER Query
+
 ![image](https://github.com/user-attachments/assets/71539798-de5c-4ac9-9055-bfc285d19dfd)
 
 
