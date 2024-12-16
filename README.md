@@ -11,6 +11,7 @@ No core os dados são formatos em um JSON e enviados como string para o query. N
 * Postgresql 14
 * Docker
 * RabbitMQ
+* Swagger
 
 # Em execução
 
